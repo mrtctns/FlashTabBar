@@ -9,8 +9,8 @@ import Foundation
 import UIKit
 
 public struct TabbarItem {
-    let VC: UIViewController?
-    let title: String?
-    let image: UIImage?
-    let selectedImage: UIImage?
+    public let VC: UIViewController?
+    public let title: String?
+    public let image: UIImage?
+    public let selectedImage: UIImage?
 }
