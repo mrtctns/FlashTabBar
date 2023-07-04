@@ -6,7 +6,7 @@ public class FlashTabBarController: UITabBarController {
     var backgroundColor: UIColor
     var tabbarItems: [TabbarItem]
     
-    init(tintColor: UIColor, backgroundColor: UIColor, tabbarItems: [TabbarItem]) {
+    public init(tintColor: UIColor, backgroundColor: UIColor, tabbarItems: [TabbarItem]) {
         self.tintColor = tintColor
         self.backgroundColor = backgroundColor
         self.tabbarItems = tabbarItems
