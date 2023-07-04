@@ -1,7 +1,7 @@
 import Foundation
 import UIKit
 
-class FlashTabBarController: UITabBarController {
+public class FlashTabBarController: UITabBarController {
     var tintColor: UIColor
     var backgroundColor: UIColor
     var tabbarItems: [TabbarItem]
@@ -17,12 +17,12 @@ class FlashTabBarController: UITabBarController {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         configure(tintColor: tintColor, backgroundColor: backgroundColor, tabbarItems: tabbarItems)
     }
     
-    func configure(tintColor: UIColor, backgroundColor: UIColor, tabbarItems: [TabbarItem]) {
+    public func configure(tintColor: UIColor, backgroundColor: UIColor, tabbarItems: [TabbarItem]) {
         self.tabBar.tintColor = tintColor
         tabBar.backgroundColor = backgroundColor
         

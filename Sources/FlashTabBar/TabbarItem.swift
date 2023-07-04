@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-struct TabbarItem {
+public struct TabbarItem {
     let VC: UIViewController?
     let title: String?
     let image: UIImage?
