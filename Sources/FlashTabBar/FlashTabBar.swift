@@ -2,9 +2,9 @@ import Foundation
 import UIKit
 
 public class FlashTabBarController: UITabBarController {
-    var tintColor: UIColor
-    var backgroundColor: UIColor
-    var tabbarItems: [TabbarItem]
+    public var tintColor: UIColor
+    public var backgroundColor: UIColor
+    public var tabbarItems: [TabbarItem]
     
     public init(tintColor: UIColor, backgroundColor: UIColor, tabbarItems: [TabbarItem]) {
         self.tintColor = tintColor
