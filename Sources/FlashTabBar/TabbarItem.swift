@@ -8,9 +8,16 @@
 import Foundation
 import UIKit
 
-public struct TabbarItem {
+public class TabbarItem {
     public let VC: UIViewController?
     public let title: String?
     public let image: UIImage?
     public let selectedImage: UIImage?
+    
+    public init(VC: UIViewController?, title: String?, image: UIImage?, selectedImage: UIImage?) {
+        self.VC = VC
+        self.title = title
+        self.image = image
+        self.selectedImage = selectedImage
+    }
 }
