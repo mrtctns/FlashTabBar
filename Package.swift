@@ -10,10 +10,11 @@ let package = Package(
         .library(
             name: "FlashTabBar",
             targets: ["FlashTabBar"]),
+        
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
+        .package(url: "https://github.com/mrtctns/FlashTabBar.git", from: "1.0.1")
     ],
     targets: [
         
