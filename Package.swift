@@ -9,12 +9,13 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "FlashTabBar",
-            targets: ["FlashTabBar"]),
-        
+            targets: ["FlashTabBar"]
+            
+        ),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/mrtctns/FlashTabBar.git", from: "1.0.1")
+        // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
         
